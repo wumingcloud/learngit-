@@ -29,3 +29,9 @@
 
 - git reset --hard commit_id 
 HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100个版本
+
+- git checkout -- file
+丢弃工作区的修改
+
+- git reset HEAD file 
+丢弃暂存区的修改，此时仅含有工作区的修改
