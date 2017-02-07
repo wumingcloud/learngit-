@@ -1,6 +1,7 @@
 # this is my first git repository!
 
-## here are my notes for you !
+## git command with notes
+>http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 - git config --list
 - git config --global user.name "xxx"
@@ -39,3 +40,6 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git rm file
 从版本库中删除file，记得commit
+
+- git push origin master
+将本地master分支推送到github
