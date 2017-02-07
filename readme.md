@@ -11,5 +11,6 @@
 - git status //查看仓库状态
 - git diff //查看文件改动状态
 - git log //查看仓库改动日志
+- git log --pretty=oneline
 
 # new test
