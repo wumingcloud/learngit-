@@ -6,6 +6,7 @@
 - git config --list
 - git config --global user.name "xxx"
 - git config --global user.email "xxx@xxx"
+
 - git init 
 创建仓库
 
@@ -48,4 +49,7 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 关联后，使用命令第一次推送master分支的所有内容；
 - git push origin master
 将本地master分支推送到github
+
+- git clone git@github.com:username/repo-name.git
+克隆仓库到本地
 
