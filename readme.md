@@ -6,3 +6,5 @@
 - git config --global user.name "xxx"
 - git config --global user.email "xxx@xxx"
 - git init
+- git add
+- git commit -m "xxxxxx"
