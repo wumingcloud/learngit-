@@ -32,6 +32,10 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git checkout -- file
 丢弃工作区的修改
+恢复file到版本库中的状态
 
 - git reset HEAD file 
 丢弃暂存区的修改，此时仅含有工作区的修改
+
+- git rm file
+从版本库中删除file，记得commit
