@@ -53,6 +53,20 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 - git clone git@github.com:username/repo-name.git
 克隆仓库到本地
 
-- git checkout -b new_branch
-创建并切换到new_branch
+- git branch
+查看分支
 
+- git branch <name>
+创建分支：
+
+- git checkout <name>
+切换分支：
+
+- git checkout -b <name>
+创建+切换分支
+
+- git merge <name>
+合并某分支到当前分支
+
+- git branch -d <name>
+删除分支
