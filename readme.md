@@ -73,3 +73,5 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git log --graph --pretty=oneline --abbrev-commit
 以图形式查看仓库日志
+
+# no-ff test!
