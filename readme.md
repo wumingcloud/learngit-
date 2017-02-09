@@ -110,3 +110,14 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 - git branch --set-upstream branch-name origin/branch-name
 建立本地分支和远程分支的关联
 
+- git tag <name> [commit_id]
+用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+- git tag -a <tagname> -m "blablabla..."
+指定标签信息；
+
+- git tag -s <tagname> -m "blablabla..."
+用PGP签名标签；
+
+- git tag
+查看所有标签。
