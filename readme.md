@@ -92,4 +92,7 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 - git stash pop
 从顶部恢复并删除
 
+- git branch -D branch name
+强制删除
+
 
