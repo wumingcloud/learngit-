@@ -78,7 +78,7 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 将合并作为一次commit记录
 
 - git stash
-保持工作现场
+保存工作现场
 
 - git stash list 
 查看工作现场列表
@@ -91,3 +91,5 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git stash pop
 从顶部恢复并删除
+
+
