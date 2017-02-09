@@ -70,3 +70,5 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git branch -d <name>
 删除分支
+
+# this is for branch feature one test!
