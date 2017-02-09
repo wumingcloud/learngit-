@@ -76,3 +76,5 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git merge --no-ff -m "xx" dev
 将合并作为一次commit记录
+
+# just for test
