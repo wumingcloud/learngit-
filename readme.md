@@ -94,3 +94,19 @@ HEAD 指向当前版本 HEAD^ 回到上一个版本 HEAD~100 表示 回到前100
 
 - git branch -D branch name
 强制删除
+
+- git remote [-v]
+查看远程库 [详细信息]
+
+- git push origin branch-name
+从本地推送分支，如果推送失败，先用git pull
+
+- git pull 
+抓取远程的分支，如果有冲突，要先处理冲突
+
+- git checkout -b branch-name origin/branch-name
+在本地创建和远程分支对应的分支,本地和远程分支的名称最好一致
+
+- git branch --set-upstream branch-name origin/branch-name
+建立本地分支和远程分支的关联
+
